@@ -1,0 +1,11 @@
+[alias]
+	r = !git checkout master && git pull origin master && git checkout - && git rebase master
+	force = push --force
+	trigger-ci = !git commit --amend --no-edit && git push --force-with-lease
+[user]
+	name = g_pasquion
+	email = gpasquion.externe@bedrockstreaming.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.dotfiles/git/.gitignore.dist
