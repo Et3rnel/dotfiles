@@ -13,3 +13,6 @@ brew bundle --file "$HOME"/.dotfiles/Brewfile
 # View Hidden Files & Folders
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE
 killall Finder
+
+# Dev
+rustup-init
