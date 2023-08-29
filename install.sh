@@ -14,5 +14,9 @@ brew bundle --file "$HOME"/.dotfiles/Brewfile
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE
 killall Finder
 
+# Symlink .zshrc file
+mv "$HOME/.zshrc" "$HOME/.zshrc.bak"
+ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
+
 # Dev
 rustup-init
