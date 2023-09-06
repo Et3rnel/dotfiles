@@ -9,5 +9,7 @@ brew 'pngquant'
 brew 'walk' # https://github.com/antonmedv/walk
 
 # Apps
+cask 'fleet'
+cask 'rectangle'
 cask 'gimp'
 cask 'google-chrome'
