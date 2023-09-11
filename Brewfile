@@ -12,4 +12,5 @@ brew 'walk' # https://github.com/antonmedv/walk
 cask 'fleet'
 cask 'rectangle'
 cask 'gimp'
-cask 'google-chrome'
+cask 'brave-browser'
+cask 'cleanmymac'

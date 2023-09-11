@@ -10,8 +10,9 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew bundle --file "$HOME"/.dotfiles/Brewfile
 
-# View Hidden Files & Folders
+# Imrove finder
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+defaults write com.apple.finder ShowPathbar -bool true
 killall Finder
 
 # Symlink .zshrc file
