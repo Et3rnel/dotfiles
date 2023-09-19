@@ -95,7 +95,7 @@
       "string" : "null"
     },
     "launchOnLogin" : {
-      "bool" : false
+      "bool" : true
     },
     "minimumWindowHeight" : {
       "float" : 0
@@ -188,7 +188,7 @@
       "int" : 0
     },
     "SUEnableAutomaticChecks" : {
-      "bool" : false
+      "bool" : true
     },
     "todo" : {
       "int" : 0
@@ -273,5 +273,5 @@
       "modifierFlags" : 786432
     }
   },
-  "version" : "76"
+  "version" : "77"
 }
