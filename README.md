@@ -27,3 +27,7 @@ Welcome to my Dotfiles repository! This repository contains various configuratio
     sudo ./install.sh
     ```
     The script will handle the setup process and symlink your Dotfiles to their appropriate locations.
+
+3. **Manuel steps**
+
+    Import rectangle configuration.
