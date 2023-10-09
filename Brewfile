@@ -1,6 +1,3 @@
-# Taps
-tap 'homebrew/cask'
-
 # Dev
 brew 'rustup'
 brew 'pngquant'
