@@ -1,6 +1,7 @@
 # Dev
 brew 'rustup'
 brew 'pngquant'
+cask 'go'
 
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
