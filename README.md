@@ -24,7 +24,7 @@ Welcome to my Dotfiles repository! This repository contains various configuratio
     Run the installation script with elevated privileges (sudo) if required. This will apply the configurations to your system and create symbolic links for the Dotfiles:
 
     ```bash
-    sudo ./install.sh
+    ./install.sh
     ```
     The script will handle the setup process and symlink your Dotfiles to their appropriate locations.
 
