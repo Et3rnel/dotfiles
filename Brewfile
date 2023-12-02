@@ -12,3 +12,7 @@ cask 'fleet'
 cask 'rectangle'
 cask 'gimp'
 cask 'brave-browser'
+cask 'visual-studio-code'
+
+# Perso
+cask 'signal'
