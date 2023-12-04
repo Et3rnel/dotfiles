@@ -2,6 +2,7 @@
 brew 'rustup'
 brew 'pngquant'
 brew 'go'
+brew 'symfony-cli/tap/symfony-cli'
 
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
