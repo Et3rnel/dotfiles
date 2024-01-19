@@ -14,6 +14,7 @@ cask 'rectangle'
 cask 'gimp'
 cask 'brave-browser'
 cask 'visual-studio-code'
+cask 'sublime-text'
 
 # Perso
 cask 'signal'
