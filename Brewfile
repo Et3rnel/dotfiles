@@ -1,6 +1,8 @@
 # Dev
 brew 'rustup'
 brew 'solana'
+brew 'node'
+brew 'yarn'
 brew 'pngquant'
 brew 'go'
 brew 'symfony-cli/tap/symfony-cli'
