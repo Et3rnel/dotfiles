@@ -18,6 +18,7 @@ cask 'gimp'
 cask 'brave-browser'
 cask 'visual-studio-code'
 cask 'sublime-text'
+cask 'mos'
 
 # Perso
 cask 'signal'
