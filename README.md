@@ -30,4 +30,5 @@ Welcome to my Dotfiles repository! This repository contains various configuratio
 
 3. **Manuel steps**
 
-    Import rectangle configuration.
+    - Import rectangle configuration.
+    - Add Mos on computer start-up.
