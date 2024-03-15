@@ -19,7 +19,8 @@ cask 'gimp'
 cask 'brave-browser'
 cask 'visual-studio-code'
 cask 'sublime-text'
-cask 'mos'
+cask 'mos' # Manage windows with keyboard
+cask 'alt-tab' # A better alt-tab solution to hide Finder when no Finder windows are open
 
 # Perso
 cask 'signal'

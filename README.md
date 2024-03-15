@@ -32,3 +32,4 @@ Welcome to my Dotfiles repository! This repository contains various configuratio
 
     - Import rectangle configuration.
     - Add Mos on computer start-up. To allow Mos, open app location and open by right clicking the icon. Also, disable "Smooth scrolling".
+    - Configure alt-tab
