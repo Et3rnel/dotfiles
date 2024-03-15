@@ -13,7 +13,7 @@ brew 'starship' # https://starship.rs/
 
 # Apps
 cask 'fleet'
-cask 'rustrover' # JetBrains Rust IDE
+cask 'rustrover' # JetBrains Rust IDE 
 cask 'rectangle'
 cask 'gimp'
 cask 'brave-browser'
