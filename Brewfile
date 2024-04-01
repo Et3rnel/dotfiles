@@ -10,6 +10,7 @@ brew 'symfony-cli/tap/symfony-cli'
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
 brew 'starship' # https://starship.rs/
+brew tree
 
 # Apps
 cask 'fleet'
