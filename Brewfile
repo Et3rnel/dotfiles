@@ -16,7 +16,7 @@ brew 'starship' # https://starship.rs/
 brew tree
 
 # Apps
-cask 'fleet'
+cask 'zed'
 cask 'rustrover' # JetBrains Rust IDE (free for now)
 cask 'rectangle'
 cask 'gimp'
