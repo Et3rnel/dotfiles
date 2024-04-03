@@ -1,3 +1,6 @@
+# Tap
+tap "homebrew/cask-fonts"
+
 # Dev
 brew 'rustup'
 brew 'solana'
@@ -14,7 +17,7 @@ brew tree
 
 # Apps
 cask 'fleet'
-cask 'rustrover' # JetBrains Rust IDE 
+cask 'rustrover' # JetBrains Rust IDE (free for now)
 cask 'rectangle'
 cask 'gimp'
 cask 'brave-browser'
@@ -22,6 +25,7 @@ cask 'visual-studio-code'
 cask 'sublime-text'
 cask 'mos' # Manage windows with keyboard
 cask 'alt-tab' # A better alt-tab solution to hide Finder when no Finder windows are open
+cask "font-mononoki-nerd-font" # Install mononoki font
 
 # Perso
 cask 'signal'
