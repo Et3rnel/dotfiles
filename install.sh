@@ -10,10 +10,15 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew bundle --file "$HOME"/.dotfiles/Brewfile
 
-# Imrove finder
+# Improve finder
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE
 defaults write com.apple.finder ShowPathbar -bool true
 killall Finder
+
+# Make screenshots saved in Documents > screenshots instead of the Desktop
+mkdir -p ~/Documents/screenshots && \
+defaults write com.apple.screencapture location ~/Documents/screenshots && \
+killall SystemUIServer # restarts SystemUIServer to make the change effective immediately
 
 # Symlink .zshrc file
 ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
