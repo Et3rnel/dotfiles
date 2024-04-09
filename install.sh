@@ -20,6 +20,11 @@ mkdir -p ~/Documents/screenshots && \
 defaults write com.apple.screencapture location ~/Documents/screenshots && \
 killall SystemUIServer # restarts SystemUIServer to make the change effective immediately
 
+# Activate click on tap (restart required)
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
 # Symlink .zshrc file
 ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
 
