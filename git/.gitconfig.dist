@@ -3,8 +3,8 @@
 	force = push --force
 	trigger-ci = !git commit --amend --no-edit && git push --force-with-lease
 [user]
-	name = g_pasquion
-	email = gpasquion.externe@bedrockstreaming.com
+	name = Eth3r
+	email = pasquiong@gmail.com
 [credential]
 	helper = osxkeychain
 [core]

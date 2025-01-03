@@ -3,7 +3,6 @@ tap "homebrew/cask-fonts"
 
 # Dev
 brew 'rustup'
-brew 'solana'
 brew 'node'
 brew 'yarn'
 brew 'pngquant'
@@ -11,14 +10,13 @@ brew 'go'
 brew 'symfony-cli/tap/symfony-cli'
 cask 'docker'
 cask 'visual-studio-code'
-cask 'sublime-text'
 cask 'zed'
 cask 'rustrover' # JetBrains Rust IDE (free for now)
 
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
 brew 'starship' # https://starship.rs/
-brew tree
+brew 'tree'
 
 # Apps
 cask 'rectangle'
