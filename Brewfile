@@ -12,6 +12,7 @@ cask 'docker'
 cask 'visual-studio-code'
 cask 'zed'
 cask 'rustrover' # JetBrains Rust IDE (free for now)
+cask 'superwhisper' # AI powered voice to text
 
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
