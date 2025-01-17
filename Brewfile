@@ -23,7 +23,6 @@ brew 'tree'
 cask 'rectangle'
 cask 'gimp'
 cask 'brave-browser'
-cask 'mos' # Manage windows with keyboard
 cask 'alt-tab' # A better alt-tab solution to hide Finder when no Finder windows are open
 cask "font-mononoki-nerd-font" # Install mononoki font
 
