@@ -16,8 +16,8 @@ defaults write com.apple.finder ShowPathbar -bool true
 killall Finder
 
 # Make screenshots saved in Documents > screenshots instead of the Desktop
-mkdir -p ~/Documents/screenshots && \
-defaults write com.apple.screencapture location ~/Documents/screenshots && \
+mkdir -p ~/Documents/screenshots
+defaults write com.apple.screencapture location ~/Documents/screenshots
 killall SystemUIServer # restarts SystemUIServer to make the change effective immediately
 
 # Activate click on tap (restart required)

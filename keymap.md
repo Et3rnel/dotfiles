@@ -8,3 +8,7 @@ A collection of my personal shortcuts for syncing across different IDEs.
 
 # Tips
 - Create a file in a new folder directly by calling the file `folder/File.ts`
+
+# OS shortcuts
+- Screenshots saved `Command + Maj + 4`
+- Screenshots in clipboard `Command + Control + Maj + 4`
