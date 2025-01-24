@@ -13,6 +13,7 @@ cask 'visual-studio-code'
 cask 'zed'
 cask 'rustrover' # JetBrains Rust IDE (free for now)
 cask 'superwhisper' # AI powered voice to text
+brew 'unnaturalscrollwheels' # To invert Mouse scroll idenpendently from the Trackpad
 
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
