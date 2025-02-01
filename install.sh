@@ -28,6 +28,10 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # Set the display to sleep after 90 minutes of inactivity battery power AND when connected to a charger
 sudo pmset -a displaysleep 90
 
+# Set the screensaver activation time to 1 hour (3600 seconds) and restart Dock to apply changes
+defaults -currentHost write com.apple.screensaver idleTime -int 3600
+killall Dock
+
 # Symlink .zshrc file
 ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
 
