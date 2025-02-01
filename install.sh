@@ -25,6 +25,9 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+# Set the display to sleep after 90 minutes of inactivity battery power AND when connected to a charger
+sudo pmset -a displaysleep 90
+
 # Symlink .zshrc file
 ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
 
