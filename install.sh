@@ -35,5 +35,11 @@ killall Dock
 # Symlink .zshrc file
 ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
 
+# Copy Code settings and shortcuts to Code Insiders
+rm ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json 2>/dev/null
+ln -s "$HOME/Library/Application Support/Code/User/settings.json" "$HOME/Library/Application Support/Code - Insiders/User/settings.json"
+rm ~/Library/Application\ Support/Code\ -\ Insiders/User/keybindings.json 2>/dev/null
+ln -s "$HOME/Library/Application Support/Code/User/keybindings.json" "$HOME/Library/Application Support/Code - Insiders/User/keybindings.json"
+
 # Dev
 rustup-init
