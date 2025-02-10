@@ -10,6 +10,7 @@ brew 'go'
 brew 'symfony-cli/tap/symfony-cli'
 cask 'docker'
 cask 'visual-studio-code'
+cask 'visual-studio-code@insiders' # Also add insiders version for AI related new features
 cask 'zed'
 cask 'rustrover' # JetBrains Rust IDE (free for now)
 cask 'superwhisper' # AI powered voice to text
