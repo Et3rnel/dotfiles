@@ -1,5 +1,6 @@
 # Tap
-tap "homebrew/cask-fonts"
+tap 'homebrew/cask-fonts'
+brew 'pulumi/tap/pulumi'
 
 # Dev
 brew 'rustup'
