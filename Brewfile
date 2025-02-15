@@ -16,6 +16,7 @@ cask 'zed'
 cask 'rustrover' # JetBrains Rust IDE (free for now)
 cask 'superwhisper' # AI powered voice to text
 brew 'unnaturalscrollwheels' # To invert Mouse scroll idenpendently from the Trackpad
+cask 'google-cloud-sdk' # gcloud CLI (https://cloud.google.com/sdk/docs/install-sdk)
 
 # UI/UX
 brew 'walk' # https://github.com/antonmedv/walk
