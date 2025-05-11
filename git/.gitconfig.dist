@@ -1,5 +1,5 @@
 [alias]
-	r = !git checkout main && git pull origin main && git checkout - && git rebase master
+	r = !git checkout main && git pull origin main && git checkout - && git rebase main
 	force = push --force
 	trigger-ci = !git commit --amend --no-edit && git push --force-with-lease
 [user]
@@ -9,3 +9,5 @@
 	helper = osxkeychain
 [core]
 	excludesfile = ~/.dotfiles/git/.gitignore.dist
+[push]
+	autoSetupRemote = true
