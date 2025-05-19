@@ -43,3 +43,7 @@ ln -s "$HOME/Library/Application Support/Code/User/keybindings.json" "$HOME/Libr
 
 # Dev
 rustup-init
+
+# Symlink Ghostty config
+mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
+ln -sf "ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"

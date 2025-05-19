@@ -1,0 +1,4 @@
+theme = MaterialDarker
+
+background-opacity = 0.6
+background-blur-radius = 20
