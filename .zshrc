@@ -31,7 +31,7 @@ function lk {
 
 # Aliases
 alias zed="/Applications/Zed.app/Contents/MacOS/cli"
-alias t='open -a Terminal .'
+alias t='open -a Ghostty .'
 
 # sst
 export PATH=/Users/gaetan/.sst/bin:$PATH
