@@ -47,3 +47,11 @@ rustup-init
 # Symlink Ghostty config
 mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
 ln -sf "ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
+
+# Setup VLC as default audio player
+echo "Setting up VLC as default audio player..."
+if [ -f "$HOME/.dotfiles/scripts/setup-vlc-audio-defaults.sh" ]; then
+    "$HOME/.dotfiles/scripts/setup-vlc-audio-defaults.sh"
+else
+    echo "VLC setup script not found. You can run it manually later."
+fi

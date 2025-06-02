@@ -23,6 +23,7 @@ cask 'ghostty' # Terminal emulator
 brew 'walk' # https://github.com/antonmedv/walk
 brew 'starship' # https://starship.rs/
 brew 'tree'
+brew 'duti' # Command-line tool to manage file associations
 
 # Apps
 cask 'rectangle'
@@ -30,6 +31,7 @@ cask 'gimp'
 cask 'brave-browser'
 cask 'alt-tab' # A better alt-tab solution to hide Finder when no Finder windows are open
 cask "font-mononoki-nerd-font" # Install mononoki font
+cask 'vlc' # VLC media player
 
 # Personal
 cask 'signal'
