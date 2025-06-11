@@ -27,6 +27,10 @@ sudo pmset -a displaysleep 90
 
 # Set the screensaver activation time to 1 hour (3600 seconds) and restart Dock to apply changes
 defaults -currentHost write com.apple.screensaver idleTime -int 3600
+
+# Hide the Dock when not in use
+defaults write com.apple.dock autohide -bool true
+
 killall Dock
 
 # Backup and symlink .zshrc file
@@ -34,8 +38,8 @@ mv "$HOME/.zshrc" "$HOME/.zshrc.backup"
 ln -s "$HOME/.dotfiles/.zshrc" "$HOME/.zshrc"
 
 # Symlink Ghostty config
-mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
-ln -sf "ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
+mkdir -p "$HOME/Library/Application\ Support/com.mitchellh.ghostty"
+ln -sf "$HOME/.dotfiles/ghostty/config" "$HOME/Library/Application\ Support/com.mitchellh.ghostty/config"
 
 # Setup VLC as default audio player
 echo "Setting up VLC as default audio player..."
