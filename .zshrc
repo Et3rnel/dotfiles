@@ -24,11 +24,6 @@ compinit
 zstyle ':completion:*:make:*:targets' call-command true
 zstyle ':completion:*:make:*' tag-order targets
 
-# Walk settings: https://github.com/antonmedv/walk
-function lk {
-  cd "$(walk "$@")"
-}
-
 # Aliases
 alias zed="/Applications/Zed.app/Contents/MacOS/cli"
 alias t='open -a Ghostty .'

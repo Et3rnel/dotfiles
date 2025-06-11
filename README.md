@@ -17,8 +17,7 @@ Welcome to my Dotfiles repository! This repository contains various configuratio
     In the Terminal, navigate to the ~/.dotfiles directory and make the installation script executable:
 
     ```bash
-    cd ~/.dotfiles
-    chmod +x install.sh
+    cd ~/.dotfiles && chmod +x install.sh
     ```
 
     Run the installation script with elevated privileges (sudo) if required. This will apply the configurations to your system and create symbolic links for the Dotfiles:

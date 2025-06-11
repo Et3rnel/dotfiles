@@ -4,9 +4,6 @@
 mv "$HOME/.gitconfig" "$HOME/.gitconfig.bak"
 ln -s "$HOME"/.dotfiles/git/.gitconfig.dist "$HOME"/.gitconfig
 
-# Update Homebrew recipes
-brew update
-
 # Install all our dependencies with bundle (See Brewfile)
 brew bundle --file "$HOME"/.dotfiles/Brewfile
 
@@ -32,17 +29,9 @@ sudo pmset -a displaysleep 90
 defaults -currentHost write com.apple.screensaver idleTime -int 3600
 killall Dock
 
-# Symlink .zshrc file
-ln -s "$HOME"/.dotfiles/.zshrc "$HOME"/.zshrc
-
-# Copy Code settings and shortcuts to Code Insiders
-rm ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json 2>/dev/null
-ln -s "$HOME/Library/Application Support/Code/User/settings.json" "$HOME/Library/Application Support/Code - Insiders/User/settings.json"
-rm ~/Library/Application\ Support/Code\ -\ Insiders/User/keybindings.json 2>/dev/null
-ln -s "$HOME/Library/Application Support/Code/User/keybindings.json" "$HOME/Library/Application Support/Code - Insiders/User/keybindings.json"
-
-# Dev
-rustup-init
+# Backup and symlink .zshrc file
+mv "$HOME/.zshrc" "$HOME/.zshrc.backup"
+ln -s "$HOME/.dotfiles/.zshrc" "$HOME/.zshrc"
 
 # Symlink Ghostty config
 mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
