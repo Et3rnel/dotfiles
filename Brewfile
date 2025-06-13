@@ -24,3 +24,4 @@ cask 'vlc' # VLC media player
 
 # Personal
 cask 'signal'
+cask 'proton-pass'
