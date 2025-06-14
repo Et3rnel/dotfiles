@@ -31,6 +31,9 @@ defaults -currentHost write com.apple.screensaver idleTime -int 3600
 # Hide the Dock when not in use
 defaults write com.apple.dock autohide -bool true
 
+# Enable swipe navigation for Brave Browser
+defaults write com.brave.Browser AppleEnableSwipeNavigateWithScrolls -bool true
+
 killall Dock
 
 # Backup and symlink .zshrc file
