@@ -12,6 +12,9 @@ defaults write com.apple.finder AppleShowAllFiles -bool TRUE
 defaults write com.apple.finder ShowPathbar -bool true
 killall Finder
 
+# Set F1-F12 to work as standard function keys by default (no need to press Fn)
+defaults write -g com.apple.keyboard.fnState -bool false
+
 # Make screenshots saved in Documents > screenshots instead of the Desktop
 mkdir -p ~/Documents/screenshots
 defaults write com.apple.screencapture location ~/Documents/screenshots
