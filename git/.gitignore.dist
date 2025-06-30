@@ -1,3 +1,4 @@
 .idea/
+.vscode/
 .DS_Store # MacOS: stores custom attributes of Finder windows (e.g., icon positions, folder views)
 **/.DS_Store
