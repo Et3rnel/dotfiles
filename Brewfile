@@ -4,6 +4,7 @@ brew 'yarn'
 brew 'go'
 brew 'symfony-cli/tap/symfony-cli'
 brew 'pulumi/tap/pulumi'
+brew 'gh'
 cask 'docker'
 cask 'visual-studio-code@insiders' # Insiders version for AI related new features
 cask 'zed'
