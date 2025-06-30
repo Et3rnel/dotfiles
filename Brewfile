@@ -4,7 +4,7 @@ brew 'yarn'
 brew 'go'
 brew 'symfony-cli/tap/symfony-cli'
 brew 'pulumi/tap/pulumi'
-brew 'gh'
+brew 'gh' # GitHub CLI to manage GitHub repositories, issues and more
 cask 'docker'
 cask 'visual-studio-code@insiders' # Insiders version for AI related new features
 cask 'zed'
