@@ -39,10 +39,9 @@ This dotfiles repository automatically sets up:
 - **Shell Configuration**: `.zshrc` with custom aliases and settings
 - **Git Configuration**: Global git settings and configurations
 - **Ghostty Terminal**: Terminal emulator configuration
-- **VS Code MCP**: Model Context Protocol server configurations for GitHub Copilot
+- **VS Code MCP**: Model Context Protocol server configurations for GitHub Copilot (Insiders)
 - **Rectangle**: Window management tool configuration
 - **macOS Defaults**: System preferences and tweaks
-- **Homebrew**: Package management via `Brewfile`
 
 ## Configurations Synced
 
