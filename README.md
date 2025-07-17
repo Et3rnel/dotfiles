@@ -31,3 +31,24 @@ Welcome to my Dotfiles repository! This repository contains various configuratio
 
     - Import rectangle configuration.
     - Configure alt-tab
+
+## What's Included
+
+This dotfiles repository automatically sets up:
+
+- **Shell Configuration**: `.zshrc` with custom aliases and settings
+- **Git Configuration**: Global git settings and configurations
+- **Ghostty Terminal**: Terminal emulator configuration
+- **VS Code MCP**: Model Context Protocol server configurations for GitHub Copilot
+- **Rectangle**: Window management tool configuration
+- **macOS Defaults**: System preferences and tweaks
+- **Homebrew**: Package management via `Brewfile`
+
+## Configurations Synced
+
+- Git global configuration (`.gitconfig`)
+- Zsh shell configuration (`.zshrc`)
+- Ghostty terminal configuration
+- VS Code MCP server settings (`mcp.json`)
+- Rectangle window manager settings
+- macOS system defaults and preferences
