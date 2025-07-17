@@ -1,0 +1,22 @@
+{
+	"servers": {
+		"browser": {
+			"command": "npx",
+			"args": [
+				"@agent-infra/mcp-server-browser@latest"
+			],
+			"type": "stdio"
+		},
+		"fetch": {
+			"command": "docker",
+			"args": [
+				"run",
+				"-i",
+				"--rm",
+				"mcp/fetch"
+			],
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}

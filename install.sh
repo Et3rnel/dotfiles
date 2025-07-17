@@ -47,6 +47,10 @@ ln -s "$HOME/.dotfiles/.zshrc" "$HOME/.zshrc"
 mkdir -p "$HOME/Library/Application\ Support/com.mitchellh.ghostty"
 ln -sf "$HOME/.dotfiles/ghostty/config" "$HOME/Library/Application\ Support/com.mitchellh.ghostty/config"
 
+# Symlink VS Code MCP configuration
+mkdir -p "$HOME/Library/Application Support/Code - Insiders/User"
+ln -sf "$HOME/.dotfiles/config/vscode-mcp.json" "$HOME/Library/Application Support/Code - Insiders/User/mcp.json"
+
 # Setup VLC as default audio player
 echo "Setting up VLC as default audio player..."
 if [ -f "$HOME/.dotfiles/scripts/setup-vlc-audio-defaults.sh" ]; then
