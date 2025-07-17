@@ -1,22 +1,17 @@
 {
-	"servers": {
-		"browser": {
-			"command": "npx",
-			"args": [
-				"@agent-infra/mcp-server-browser@latest"
-			],
-			"type": "stdio"
-		},
-		"fetch": {
-			"command": "docker",
-			"args": [
-				"run",
-				"-i",
-				"--rm",
-				"mcp/fetch"
-			],
-			"type": "stdio"
-		}
-	},
-	"inputs": []
+    "servers": {
+        "context7": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp"
+            ]
+        },
+        "fetch": {
+            "command": "docker",
+            "args": ["run", "-i", "--rm", "mcp/fetch"]
+        }
+    },
+    "inputs": []
 }
