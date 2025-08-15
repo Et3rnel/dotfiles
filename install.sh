@@ -51,6 +51,9 @@ ln -sf "$HOME/.dotfiles/ghostty/config" "$HOME/Library/Application\ Support/com.
 mkdir -p "$HOME/Library/Application Support/Code - Insiders/User"
 ln -sf "$HOME/.dotfiles/config/vscode-mcp.json" "$HOME/Library/Application Support/Code - Insiders/User/mcp.json"
 
+# Symlink VS Code keybindings
+ln -sf "$HOME/.dotfiles/config/vscode-keybindings.json" "$HOME/Library/Application Support/Code - Insiders/User/keybindings.json"
+
 # Setup VLC as default audio player
 echo "Setting up VLC as default audio player..."
 if [ -f "$HOME/.dotfiles/scripts/setup-vlc-audio-defaults.sh" ]; then

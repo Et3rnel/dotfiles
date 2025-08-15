@@ -8,6 +8,8 @@ A collection of my personal shortcuts for syncing across different IDEs.
 - **Toggle line comment**: `Command + :`
 - **Toggle block comment**: `Command + : + Maj`
 - **Copy relative path**: `Command + Maj + C`
+- **Toggle Terminal**: `F2`
+- **Toggle AI Chat**: `F3`
 
 # Tips
 - Create a file in a new folder directly by calling the file `folder/File.ts`

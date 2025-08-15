@@ -1,0 +1,10 @@
+[
+    {
+        "key": "f2",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "f3",
+        "command": "workbench.panel.chat.view.copilot.focus"
+    }
+]
